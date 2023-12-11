@@ -200,16 +200,6 @@ input[placeholder] {
   transform: translateY(0);
 }
 
-.avatar svg {
-  width: 32px;
-  height: 32px;
-  padding: 4px;
-  border-radius: 4px;
-  background-color: #ffffff;
-  margin-top: 10px;
-  cursor: pointer;
-}
-
 .left {
   display: flex;
   justify-content: flex-start;
@@ -234,6 +224,18 @@ input[placeholder] {
   padding-right: 15px;
   margin-right: 5px;
 }
+
+.avatar svg {
+  width: 32px;
+  height: 32px;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
 
 @media (max-width: 1300px) {
   .column {
